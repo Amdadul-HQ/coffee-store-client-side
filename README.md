@@ -1,6 +1,6 @@
 ***Coffee Store Admin Interface***
 
-    Welcome to the Coffee Store Admin Interface! This web application allows administrators to manage products, update prices, and handle user management efficiently. Built using React, Tailwind CSS, Daisy UI, and Firebase authentication, it provides a seamless experience for administrators to oversee their coffee store operations.
+Welcome to the Coffee Store Admin Interface! This web application allows administrators to manage products, update prices, and handle user management efficiently. Built using React, Tailwind CSS, Daisy UI, and Firebase authentication, it provides a seamless experience for administrators to oversee their coffee store operations.
 
 **Features**
 
