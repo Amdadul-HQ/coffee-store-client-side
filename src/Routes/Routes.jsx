@@ -7,6 +7,7 @@ import EditCoffee from "../Pages/EditCoffee/EditCoffee";
 import Viewcoffeedetails from "../Pages/ViewCoffeeDetails/Viewcoffeedetails";
 import SignUp from "../Pages/SignUp/SignUp";
 import SignIn from "../Pages/SignIn/SignIn";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 const router = createBrowserRouter([
     {
@@ -39,6 +40,11 @@ const router = createBrowserRouter([
             {
                 path:'/signin',
                 element:<SignIn/>
+            },
+            {
+                path:'/dashboard',
+                element:<Dashboard/>,
+                loader: () => fetch('http://localhost:5000/user')
             }
         ]
     }

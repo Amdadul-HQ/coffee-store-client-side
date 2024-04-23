@@ -5,7 +5,6 @@ const Viewcoffeedetails = () => {
     const coffee = useLoaderData()
     
     return (
-        <div>
             <section style={{
             background:`url(${bg})`,
             backgroundRepeat:'no-repeat',
@@ -34,7 +33,6 @@ const Viewcoffeedetails = () => {
                     </div>
             </div>
         </section>
-        </div>
     );
 };
 

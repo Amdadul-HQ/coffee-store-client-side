@@ -3,7 +3,6 @@ import { SlCup } from "react-icons/sl";
 import { IoEyeSharp } from "react-icons/io5";
 import { MdEdit, MdDelete } from "react-icons/md";
 import { useEffect, useState } from "react";
-import swal from "sweetalert";
 import Swal from "sweetalert2";
 // import pic1 from '../../assets/more/4.png'
 // import pic2 from '../../assets/more/5.png'
