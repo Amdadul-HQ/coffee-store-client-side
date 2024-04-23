@@ -70,7 +70,7 @@ const Dashboard = () => {
             backgroundSize:'cover',
             backgroundPosition:'center',
         }}
-        className='w-full'
+        className='w-full mt-5 mb-32'
         >
             <div className='max-w-[1320px] mx-auto'>
             <div className="font-Raleway">
