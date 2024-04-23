@@ -8,6 +8,7 @@ import Viewcoffeedetails from "../Pages/ViewCoffeeDetails/Viewcoffeedetails";
 import SignUp from "../Pages/SignUp/SignUp";
 import SignIn from "../Pages/SignIn/SignIn";
 import Dashboard from "../Pages/Dashboard/Dashboard";
+import UserUpdate from "../Pages/UserUpdate/UserUpdate";
 
 const router = createBrowserRouter([
     {
@@ -45,6 +46,11 @@ const router = createBrowserRouter([
                 path:'/dashboard',
                 element:<Dashboard/>,
                 loader: () => fetch('http://localhost:5000/user')
+            },
+            {
+                path:'/userupdate/:id',
+                element:<UserUpdate/>,
+                loader:({params}) => fetch(`http://localhost:5000/user/${params.id}`)
             }
         ]
     }
