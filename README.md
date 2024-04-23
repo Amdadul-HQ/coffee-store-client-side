@@ -93,8 +93,12 @@ Install dependencies using npm install.
 Set up Firebase authentication and MongoDB database configurations.
 Run the development server using npm start.
 
-Contributors
-[AMDADUL HQ] - Project Lead & Developer
-[AMDADUL HQ] - Backend Developer
-[AMDADUL HQ] - Frontend Developer
-[FROM PROGRAMMING HERO TEAM] - UI/UX Designer
+**Contributors**
+
+* [AMDADUL HQ] - Project Lead & Developer
+
+* [AMDADUL HQ] - Backend Developer
+
+* [AMDADUL HQ] - Frontend Developer
+
+* [FROM PROGRAMMING HERO TEAM] - UI/UX Designer
