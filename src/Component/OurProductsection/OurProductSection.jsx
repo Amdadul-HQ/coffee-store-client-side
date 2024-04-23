@@ -12,7 +12,7 @@ const OurProductSection = () => {
 
 
     useEffect(()=>{
-        fetch('http://localhost:5000/coffee')
+        fetch('https://coffee-store-server-site-five.vercel.app/coffee')
         .then(res=> res.json())
         .then(data => {
            
@@ -43,7 +43,7 @@ const OurProductSection = () => {
             reverseButtons: true
           }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/coffee/${id}`,{
+                fetch(`https://coffee-store-server-site-five.vercel.app/coffee/${id}`,{
                     method:'DELETE'
                 })
                 .then(res => res.json())

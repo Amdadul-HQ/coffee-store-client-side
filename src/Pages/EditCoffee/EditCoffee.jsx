@@ -22,7 +22,7 @@ const EditCoffee = () => {
         const updataCoffee = {
             coffeeName,chefName,supplier,taste,categoryName,price,photo
         }
-        fetch(`http://localhost:5000/coffee/${_id}`,{
+        fetch(`https://coffee-store-server-site-five.vercel.app/coffee/${_id}`,{
             method:'PUT',
             headers:{
                 'content-type':'application/json'

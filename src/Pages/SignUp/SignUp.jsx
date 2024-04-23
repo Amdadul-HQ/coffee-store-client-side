@@ -72,7 +72,7 @@ const SignUp = () => {
                     text: "Something Wrong",
                   });
             }
-            fetch('http://localhost:5000/user',{
+            fetch('https://coffee-store-server-site-five.vercel.app/user',{
                 method:'POST',
                 headers:{
                     'content-type':'application/json'

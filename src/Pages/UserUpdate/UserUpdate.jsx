@@ -24,7 +24,7 @@ const UserUpdate = () => {
         const updatePhoto = form.Photo.value;
         const updatePhone = form.phone.value;
         const updateUser ={updateEmail,updateFullName,updatePhone,updatePhoto}
-        fetch(`http://localhost:5000/user/${_id}`,{
+        fetch(`https://coffee-store-server-site-five.vercel.app/user/${_id}`,{
             method:'PATCH',
             headers:{
                 'content-type':'application/json'

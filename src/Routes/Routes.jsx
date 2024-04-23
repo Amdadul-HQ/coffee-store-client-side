@@ -27,12 +27,12 @@ const router = createBrowserRouter([
             {
                 path:'/updatecoffee/:id',
                 element:<EditCoffee/>,
-                loader:({params}) => fetch(`http://localhost:5000/coffee/${params.id}`)
+                loader:({params}) => fetch(`https://coffee-store-server-site-five.vercel.app/coffee/${params.id}`)
             },
             {
                 path:'/coffee/:id',
                 element:<Viewcoffeedetails/>,
-                loader: ({params}) => fetch(`http://localhost:5000/coffee/${params.id}`)
+                loader: ({params}) => fetch(`https://coffee-store-server-site-five.vercel.app/coffee/${params.id}`)
             },
             {
                 path:'/signup',
@@ -45,12 +45,12 @@ const router = createBrowserRouter([
             {
                 path:'/dashboard',
                 element:<Dashboard/>,
-                loader: () => fetch('http://localhost:5000/user')
+                loader: () => fetch('https://coffee-store-server-site-five.vercel.app/user')
             },
             {
                 path:'/userupdate/:id',
                 element:<UserUpdate/>,
-                loader:({params}) => fetch(`http://localhost:5000/user/${params.id}`)
+                loader:({params}) => fetch(`https://coffee-store-server-site-five.vercel.app/user/${params.id}`)
             }
         ]
     }
