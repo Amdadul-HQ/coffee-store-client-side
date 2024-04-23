@@ -83,15 +83,21 @@ Git Hub Repositories Link :
 
 
 
-Getting Started
+**Getting Started**
 
-To run the project locally, follow these steps:
+*To run the project locally, follow these steps:*
 
-Clone this repository to your local machine.
-Navigate to the project directory.
-Install dependencies using npm install.
-Set up Firebase authentication and MongoDB database configurations.
-Run the development server using npm start.
+* Clone this repository to your local machine.
+
+* Navigate to the project directory.
+
+* Install dependencies using 
+
+        npm install.
+
+* Set up Firebase authentication and MongoDB database configurations.
+
+* Run the development server using npm start.
 
 **Contributors**
 
