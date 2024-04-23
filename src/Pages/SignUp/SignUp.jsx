@@ -55,8 +55,9 @@ const SignUp = () => {
                   });
             })
             console.log(result);
-            const createAt = result.user.metadata.creationTime
-            const user = {email,password,fullName,phone,photo,createAt}
+            const createAt = result.user.metadata.creationTime;
+            const lastSignInTime = result.user.metadata.lastSignInTime;
+            const user = {email,password,fullName,phone,photo,createAt,lastSignInTime}
             if(!createAt){
                 return Swal.fire({
                     customClass: {

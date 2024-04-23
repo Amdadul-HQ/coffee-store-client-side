@@ -112,6 +112,7 @@ const Dashboard = () => {
                             <button className="btn btn-ghost btn-xs">{person.phone}</button>
                             </td>
                             <td>{person.createAt}</td>
+                            <td>{person.lastSignInTime}</td>
                             <td className='flex gap-x-3'>
                                 <Link to='/userupdate' className='bg-[#3C393B] text-white p-3 rounded-lg text-xl flex justify-center items-center'><button><MdEdit/></button></Link>
                                 <Link onClick={()=> handleDeletUser(person._id)} className='bg-[#EA4744] text-white p-3 rounded-lg text-xl flex justify-center items-center'><button><MdDelete/></button></Link>
