@@ -1,5 +1,6 @@
 import Banner from "../../Component/Banner/Banner";
 import Featuredsection from "../../Component/FeaturedSection/Featuredsection";
+import FollowInstragram from "../../Component/FollowInstragram/FollowInstragram";
 import OurProductSection from "../../Component/OurProductsection/OurProductSection";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
             <Banner/>
             <Featuredsection/>
             <OurProductSection/>
+            <FollowInstragram/>
         </>
     );
 };
